@@ -2,7 +2,7 @@
 	"name": "recap-project-1",
 	"private": true,
 	"scripts": {
-		"dev": "bun run src/*.html",
+		"dev": "bun --hot ./src/*.html",
 		"build": "bun build ./src/*.html --outdir=dist --env=PUBLIC_*"
 	},
 	"devDependencies": {
