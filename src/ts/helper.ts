@@ -1,4 +1,4 @@
-import { TIsbn } from "./types";
+import type { TIsbn } from "./types";
 
 export function slugify(value: string): string {
 	return value
