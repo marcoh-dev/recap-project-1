@@ -4,7 +4,7 @@
 		"module": "preserve",
 		"target": "esnext",
 		"lib": ["esnext", "dom"],
-		"types": ["bun"],
+		"types": ["vite/client"],
 
 		// Other Outputs
 		"sourceMap": true,
